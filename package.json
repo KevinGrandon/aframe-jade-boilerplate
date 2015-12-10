@@ -1,0 +1,23 @@
+{
+  "name": "aframe-jade-boilerplate",
+  "description": "Boilerplate for creating WebVR scenes using A-Frame and Jade templates",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "jade *.jade -o build/ && budo --dir build/ --live --verbose --port 3000 --open",
+    "deploy": "ghpages",
+    "ghpages": "ghpages"
+  },
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.3",
+    "jade": "^1.11.0"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-example",
+    "aframe-scene",
+    "aframe-boilerplate",
+    "aframe-jade-boilerplate"
+  ]
+}
